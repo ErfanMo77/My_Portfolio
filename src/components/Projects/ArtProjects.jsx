@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+const ArtProjects = () => {
+  const { artProjects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,8 +26,8 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map((project) => {
+          <Title title="Art Projects" />
+          {artProjects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
@@ -49,24 +49,12 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {url && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
-                        >
-                          Video
-                        </a>
-                      )}
 
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className={
-                            url ? 'cta-btn text-color-main' : 'cta-btn text-color-main noPadding'
-                          }
+                          className="cta-btn text-color-main"
                           href={repo}
                         >
                           Source Code
@@ -120,4 +108,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ArtProjects;
