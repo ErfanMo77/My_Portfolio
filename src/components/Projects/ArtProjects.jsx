@@ -37,7 +37,7 @@ const ArtProjects = () => {
                     left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={500}
+                    delay={350}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
@@ -68,12 +68,12 @@ const ArtProjects = () => {
                     right={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={1000}
+                    delay={750}
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href= {url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"

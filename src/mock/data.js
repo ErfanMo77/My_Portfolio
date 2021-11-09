@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Erfan',
-  subtitle: "I'm a developer!",
+  name: 'Erfan Momeni',
+  subtitle: "I'm a game developer!",
   cta: '',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I love video games',
   paragraphTwo: 'blah blah blah 2 ',
   paragraphThree: 'blah blah blah 3',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '../images/cv.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,20 +59,20 @@ export const projectsData = [
 export const artProjectsData = [
   {
     id: nanoid(),
-    img: 'project1.png',
+    img: 'Nature.jpg',
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url:  require('../images/Nature.jpg'),
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project2.png',
+    img: 'GrassCar',
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url: require('../images/GrassCar.png'),
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -110,6 +110,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/ErfanMo77',
+    },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCpB_5eY1HTgva6TFE1WreQw',
     },
   ],
 };
