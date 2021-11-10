@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Me.jpg',
-  paragraphOne: 'I am a creative, multi-disciplinary computer engineer',
+  paragraphOne: 'I am a creative, multi-disciplinary computer engineer.',
   paragraphTwo:
     'My main interests lie in video games. I love designing, developing, and playing video games.\
    Specifically, I am interested in computer graphics and developing optimized tools and engines to build games.',
@@ -46,7 +46,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'lucin.png',
     title: 'Lucin',
-    info: 'Lucin is a multi-threaded CPU path tracer',
+    info: 'Lucin is a multi-threaded CPU path tracer.',
     info2:
       'Lucin is made by following "RayTracing in one weekend" tutorials by Peter Shirley. In the future I would like to add new features\
      such as volumes and real-time ray tracing using Nvidia Optix.',
@@ -59,7 +59,7 @@ export const projectsData = [
     title: 'Pentago',
     info: 'Pentago is a board game usually played with two players. You can also play with AI.',
     info2:
-      'I implemented this project in Java using mini-max tree and alpha-beta pruning to find the next best move. The UI is made with JavaFX',
+      'I implemented this project in Java using mini-max tree and alpha-beta pruning to find the next best move. The UI is made with JavaFX.',
     url: '',
     repo: 'https://github.com/ErfanMo77/Pentago_mini-max',
   },
@@ -82,7 +82,7 @@ export const artProjectsData = [
     id: nanoid(),
     img: 'GrassCar',
     title: 'Grass Car',
-    info: "This scene was created in Blender following Derek Elliott's tutorials on youtube",
+    info: "This scene was created in Blender following Derek Elliott's tutorials on Youtube.",
     info2:
       'This was done by using particle system of blender and it was rendered with Cylcles renderer.',
     url: require('../images/GrassCar.png'),
@@ -94,7 +94,7 @@ export const artProjectsData = [
     title: 'Shack',
     info: 'I created this scene in Blender.',
     info2:
-      "I did the modeling, lighting, and rendering of this scene following Grant Abbitt's Blender tutorials on youtube.\
+      "I did the modeling, lighting, and rendering of this scene following Grant Abbitt's Blender tutorials on Youtube.\
      it was one of the first scenes that I created in Blender as I was learning and practising 3D modeling.",
     url: require('../images/shack.png'),
     repo: '',
@@ -105,7 +105,7 @@ export const artProjectsData = [
     title: 'Well',
     info: 'This scene was created in Blender.',
     info2:
-      'It was also modeled by following Grant Abbitt\'s "Well" tutorial on youtube.\
+      'It was also modeled by following Grant Abbitt\'s "Well" tutorial on Youtube.\
     Many modifiers like Lattice tool in Blender was used to create the well.',
     url: require('../images/well.png'),
     repo: '',
