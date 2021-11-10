@@ -11,17 +11,21 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Erfan Momeni',
-  subtitle: "I'm a game developer!",
+  subtitle: "I'm a Computer Engineer!",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'me2.png',
-  paragraphOne: 'I love video games',
-  paragraphTwo: 'blah blah blah 2 ',
-  paragraphThree: 'blah blah blah 3',
-  resume: '../images/cv.pdf', // if no resume, the button will not show up
+  img: 'Me.jpg',
+  paragraphOne: 'I am a creative, multi-disciplinary computer engineer',
+  paragraphTwo:
+    'My main interests lie in video games. I love designing, developing, and playing video games.\
+   Specifically, I am interested in computer graphics and developing optimized tools and engines to build games.',
+  paragraphThree:
+    'In the future, I would like to contribute to building innovative and immersive video games by\
+   finding efficient methods to solve the problems in making video games.',
+  resume: '../images/cv.pdf',
 };
 
 // PROJECTS DATA
@@ -30,28 +34,34 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.png',
     title: 'Syndra Engine',
-    info: 'Syndra is an early-stage game engine',
-    info2: '',
+    info: 'Syndra is an early-stage 3D game engine.',
+    info2:
+      "Syndra is my bachelor's thesis project, where I wanted to study how to build 3D game engines.\
+    The purpose of this project is not to make 3D games; rather, my primary motivation for making Syndra is to\
+     test and learn new algorithms and techniques used mainly in graphics and real-time rendering.",
     url: 'https://www.youtube.com/watch?v=PlPZ7A7ZCdA',
-    repo: 'https://github.com/ErfanMo77/Syndra', // if no repo, the button will not show up
+    repo: 'https://github.com/ErfanMo77/Syndra',
   },
   {
     id: nanoid(),
-    img: 'project2.png',
+    img: 'lucin.png',
     title: 'Lucin',
-    info: 'Lucin is a multi-threaded path tracer',
-    info2: '',
+    info: 'Lucin is a multi-threaded CPU path tracer',
+    info2:
+      'Lucin is made by following "RayTracing in one weekend" tutorials by Peter Shirley. In the future I would like to add new features\
+     such as volumes and real-time ray tracing using Nvidia Optix.',
     url: '',
-    repo: 'https://github.com/ErfanMo77/Lucin', // if no repo, the button will not show up
+    repo: 'https://github.com/ErfanMo77/Lucin',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'pentago2.png',
+    title: 'Pentago',
+    info: 'Pentago is a board game usually played with two players. You can also play with AI.',
+    info2:
+      'I implemented this project in Java using mini-max tree and alpha-beta pruning to find the next best move. The UI is made with JavaFX',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ErfanMo77/Pentago_mini-max',
   },
 ];
 
@@ -60,29 +70,45 @@ export const artProjectsData = [
   {
     id: nanoid(),
     img: 'Nature.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url:  require('../images/Nature.jpg'),
-    repo: '', // if no repo, the button will not show up
+    title: 'The Road',
+    info: 'This scene was created as my submission in a weeky environment art competition.',
+    info2:
+      'It was created using "Quixel" materials and assets in Unreal Engine 4. I did the lighting and post-processing and also setting of the scene.\
+    A subsurface scattering shader was used to create realistic tree leaves.',
+    url: require('../images/Nature.jpg'),
+    repo: '',
   },
   {
     id: nanoid(),
     img: 'GrassCar',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Grass Car',
+    info: "This scene was created in Blender following Derek Elliott's tutorials on youtube",
+    info2:
+      'This was done by using particle system of blender and it was rendered with Cylcles renderer.',
     url: require('../images/GrassCar.png'),
-    repo: '', // if no repo, the button will not show up
+    repo: '',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    img: 'shack.png',
+    title: 'Shack',
+    info: 'I created this scene in Blender.',
+    info2:
+      "I did the modeling, lighting, and rendering of this scene following Grant Abbitt's Blender tutorials on youtube.\
+     it was one of the first scenes that I created in Blender as I was learning and practising 3D modeling.",
+    url: require('../images/shack.png'),
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'well.png',
+    title: 'Well',
+    info: 'This scene was created in Blender.',
+    info2:
+      'It was also modeled by following Grant Abbitt\'s "Well" tutorial on youtube.\
+    Many modifiers like Lattice tool in Blender was used to create the well.',
+    url: require('../images/well.png'),
+    repo: '',
   },
 ];
 
