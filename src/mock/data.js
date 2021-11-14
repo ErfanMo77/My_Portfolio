@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I am a creative, multi-disciplinary computer engineer.',
   paragraphTwo:
     'My main interests lie in video games. I love designing, developing, and playing video games.\
-   Specifically, I am interested in computer graphics and developing optimized tools and engines to build games.',
+   Specifically, I am interested in real-time graphics and developing optimized tools and engines to build games.',
   paragraphThree:
     'In the future, I would like to contribute to building innovative and immersive video games by\
    finding efficient methods to solve the problems in making video games.',
@@ -71,9 +71,9 @@ export const artProjectsData = [
     id: nanoid(),
     img: 'Nature.jpg',
     title: 'The Road',
-    info: 'This scene was created as my submission in a weeky environment art competition.',
+    info: 'This scene was created as my submission in a weekly environment art competition.',
     info2:
-      'It was created using "Quixel" materials and assets in Unreal Engine 4. I did the lighting and post-processing and also setting of the scene.\
+      'It was created using "Quixel" materials and assets in Unreal Engine 4. I did the lighting and post-processing and also the setting of the scene.\
     A subsurface scattering shader was used to create realistic tree leaves.',
     url: require('../images/Nature.jpg'),
     repo: '',
