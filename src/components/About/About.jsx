@@ -53,7 +53,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={require('../../images/cv.pdf')}
+                      href={require('../../images/cv2.pdf')}
                     >
                       Resume
                     </a>
