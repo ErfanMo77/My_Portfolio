@@ -39,14 +39,16 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a creative, multi-disciplinary computer engineer.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Video games are my main interest. I enjoy designing, developing, and playing them.\
+                    In particular, I am fascinated by real-time graphics and developing optimized tools and engines to build games.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'In the future, I would like to contribute to building innovative and immersive video games by\
+   finding efficient methods to solve the problems in making video games.Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 <span className="d-flex mt-3">
                     <a
