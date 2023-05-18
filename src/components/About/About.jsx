@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am a creative, multi-disciplinary software engineer.'}
+                    'I am a creative, multi-disciplinary Software Engineer.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
